@@ -11,5 +11,3 @@ def swap( A, x, y ):
   tmp = A[x]
   A[x] = A[y]
   A[y] = tmp
-
-selectionsort(xlist)
