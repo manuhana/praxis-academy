@@ -1,0 +1,27 @@
+1. $pwd
+/home/manuhana
+2. $cd ~/Downloads
+~/Downloads$
+3. $ls
+Anaconda    Notes.txt
+'Adaptive Python'
+4. $sudo su
+root@manuhana:~#
+5. $sudo apt update
+Reading package list... Done
+Building dependency tree
+Reading state information... Done
+All packages are up to date.
+6. $whoami
+manuhana
+7. $mkdir new_fallen
+new_fallen
+8. $mv new_fallen ~/Downloads/new_fallen
+~/Downloads/new_fallen
+9. $rm -r new_fallen
+
+10. $rmdir ~/Downloads/new_fallen
+
+11. $clean
+
+12. $chmod +x retro.sh
