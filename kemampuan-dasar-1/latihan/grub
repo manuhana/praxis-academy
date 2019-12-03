@@ -1,0 +1,4 @@
+menu pertama adalah "Ubuntu", artinya menjalankan desktop secara biasa berdasarkan versi terbaru yang telah diinstall
+menu kedua adalah "Advanced Option for Ubuntu", nantinya akan menampilkan menu tambahan, yakni menjalankan desktop dengan operating system alternatif yang ada.
+menu ketiga adalah "Memory test (memtest86+)", adalah fitur yang dapat digunakan untuk menjalankan memory test secara keseluruhan
+menu keempat adalah "Memory test (memtest86+, serial console 115200), merupakan fitur memory test secara remote yang lebih spesifik
