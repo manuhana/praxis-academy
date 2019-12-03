@@ -1,0 +1,5 @@
+source : /sys/kernel
+kegunaan :
+1. Eksekusi aplikasi
+2. Multiplexing
+3. Menghubungkan software dan hardware
