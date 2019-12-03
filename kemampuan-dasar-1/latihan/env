@@ -1,1 +1,4 @@
-
+Desktop : Gnome
+Display : GTK
+Shell   : Gnome terminal
+source  : dconf editor, software center
