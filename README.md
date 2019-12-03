@@ -1,1 +1,1 @@
-# praxis-academy
+# have fun
