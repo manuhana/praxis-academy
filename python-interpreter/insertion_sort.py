@@ -1,14 +1,18 @@
-def insertion(data):
-    data_size = len(data)
-    current = 1
-    while current < data_size:
-        for i in range(current):
-            if data[current] < data[i]:
-                temp = data[i]
-                data[i] = data[current]
-                data[current] = temp
+# defining list
+xlist = [2,7,9,13,8,21]
 
-        current += 1
+# insertionlist function
+def insertionlist (xlist):
+    for x in range (1,len(xlist)):
+        tmp = xlist[x]
+        k = x
+        while k > 0 and tmp < xlist[k-1]:
+            xlist[k] = xlist[k-1]
+            k -= 1
+        xlist[k] = tmp
 
-    return data
+# run insertionlist function
+insertionlist(xlist)
 
+# print out the result
+print(xlist)
