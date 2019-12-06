@@ -1,10 +1,20 @@
-class dog():
-	def __init__(self, name, age):
+class player():
+	def __init__(self, name):
 		self.name = name
-		self.age = age
-	
-	def run(self):
-		print(self.name.tittle() + ' is now running!')
+		print('The player name is ' + self.name.title())
 		
-	def sit(self):
-		print(self.name.tittle() + ' is now sitting!')
+	def role(self):
+		raise
+
+class og(player):
+	def role(self):
+		return self.name.title() + ' role is carry!'
+
+class liquid(player):
+	def role(self):
+		return self.name.title() + ' role is support!'
+
+ana = og('ana')
+kuroky = liquid('kuroky')
+print(ana.role())
+print(kuroky.role())
