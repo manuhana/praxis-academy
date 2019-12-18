@@ -1,21 +1,27 @@
+# classing machine opening
 print('###################################')
 print('Welcome to Manuhana ATM!')
 print('###################################')
 
-# let's get started with parent class
-class atm:
-	def __init__(self):
-		self.name = input('Please insert your name: ')
-		self.welcome = 'Welcome, ' + self.name.title() + ' !'
-		print(self.welcome)
-	
-	def security(self):
-		self.pin = input('Please input your pin here: ')
-		self.pin_1 = '123456'
-		while self.pin != self.pin_1:
-			print('Your pin is wrong!')
-			self.pin = input('Please type your pin: ')
-		print('Access granted!')
+# let's get started with welcome menu
+print('Do you have an account?')
+print('[1] Yes')
+print('[2] No, I want to sign up now')
+decide = input()
 
-manuhana = atm()
-manuhana.security()
+# main menu for login or sign up
+if decide == '1':
+	# existing account
+	x_username = input('Please input your username : ')
+	x_pin = input('Please input your pin number : ')
+	print('Welcome,', x_username.title() + '!')
+
+else:
+	# create new account
+	username = input('Please input a username : ')
+	print('Please create your 6 number of pin')
+	pin = input()
+	print('Welcome,', username.title() + '!')
+
+# lets make a client database
+client = {}
