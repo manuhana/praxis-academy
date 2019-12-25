@@ -6,3 +6,12 @@ def look():
 		t += 1
 		print(a)
 x = look()
+
+# without high order function
+def substract(f,g):
+	return f + g
+f = 3
+g = 9
+print(substract(f,g))
+# with simple high order function "lambda"
+lambda f,g:f + g
