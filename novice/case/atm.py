@@ -9,7 +9,7 @@ print('[1] Yes')
 print('[2] No, I want to sign up now')
 decide = input()
 
-#  this will is the client username and pin database
+#  this will be the client username and pin database
 client = {}
 
 # create a new account
